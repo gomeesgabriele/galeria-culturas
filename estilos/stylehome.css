@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*VARIÁVEIS*/
+:root{
+    /*paleta de cores*/
+    --cor0: #ffffff;
+    --cor1: #E6F4E6;
+    --cor2: #A8D8A8;
+    --cor3: #4CAF50;
+    --cor4: #388E3C;
+    --cor5: #1B5E20;
+
+    /**/
+    --font-padrao: 'Open Sans',Arial, sans-serif;
+}
+
+/*Estilos gerais*/
+body{
+    font-family: var(--font-padrao);
+}
+
+/*Estilos header*/
+header{
+    background: var(--cor5);
+    padding: 0.2rem;
+}
+#header-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2em;
+    margin-left: 0em;
+}
+    
+#brand{
+    color: white;
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.bar{
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+    transition: 0.3s;
+}
+
+/*Seção de Apresentação*/
+.hero-section{
+    background-image:linear-gradient(rgba(0,0,0,0.5)), url(../Imagens/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 4rem 2rem;
+    text-align: justify;
+    color: white;
+}
+
+.hero-content{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-left: 1em;
+   
+}
+
+#hero-title{
+    font-size: 2rem;
+}
+
+
+
+.hero-buttons{
+    margin-top: 2rem;
+}
+
+.bnt{
+    display: inline-block;
+    padding: 12px 30px;
+    margin: 0 10px;
+    background: var(--cor5);
+    color: var(--cor0);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.bnt:hover{
+    background-color: var(--cor2);
+    color: var(--cor5);
+    text-decoration: underline;
+}
