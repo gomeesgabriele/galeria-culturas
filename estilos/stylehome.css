@@ -180,3 +180,52 @@ header{
 .final-title{
     font-size: 1.5em;
 }
+
+footer{
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--cor0);
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.rodape-section{
+    background-color: var(--cor5);
+    padding: 2rem;
+}
+
+#rodape-logo{
+    border-radius: 50%;
+    margin: 0.5rem;
+    width: 2rem;
+    height: auto;
+}
+
+.rodape-links a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 1rem;
+    gap: 1rem;
+}
+
+#dev-section{
+    background: var(--cor2);
+    padding: 0.2rem;
+}
+
+#assinatura{
+    color: var(--cor5);
+    font-weight: bold;
+    
+}
+
