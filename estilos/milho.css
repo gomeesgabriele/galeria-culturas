@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*VARIÁVEIS*/
+:root{
+    /*paleta de cores*/
+    --cor0: #ffffff;
+    --cor1: #E6F4E6;
+    --cor2: #A8D8A8;
+    --cor3: #4CAF50;
+    --cor4: #388E3C;
+    --cor5: #1B5E20;
+
+    /**/
+    --font-padrao: 'Open Sans',Arial, sans-serif;
+}
+/*Estilos Gerais*/
+body{
+    font-family: var(--font-padrao);
+    margin: 0;
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+p{
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+/*Estilos header*/
+header{
+    background-color: var(--cor5);
+    padding: 0.2em;
+    
+}
+
+#brand{
+    color: var(--cor0);
+    font-size: 1.3rem;
+    padding: 0.2em;
+    text-align: center;
+}
+
+/*Título principal*/
+h1{
+    font-size: 2rem;
+    margin: 2rem 0 1rem;
+}
+
+/*Imagem principal*/
+.hero-image{
+    width: 100%;
+}
+
+/*Rodape*/
+footer{
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--cor0);
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.rodape-section{
+    background-color: var(--cor5);
+    padding: 2rem;
+}
+
+#rodape-logo{
+    border-radius: 50%;
+    margin: 0.5rem;
+    width: 2rem;
+    height: auto;
+}
+
+.rodape-links a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 1rem;
+    gap: 1rem;
+}
+
+#dev-section{
+    background: var(--cor2);
+    padding: 0.2rem;
+}
+
+#assinatura{
+    color: var(--cor5);
+    font-weight: bold;
+    
+}
